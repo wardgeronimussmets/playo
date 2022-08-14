@@ -1,0 +1,19 @@
+The main idea is to create an app that you can program to scan for a specific wifi network.
+If it has found this network, it will connect and send a message via whatsapp to the person
+that you wanted to send the message to.
+Example use: "I've arrived safely at home"
+
+further developments:
+use gps to check if the person is getting close to the target place.
+
+plan of execution:
+first see if you can get a program to do something in the background
+then see if you can turn on wifi and scan for wifi networks
+then see if you can send messages with whatsapp
+
+
+libararies:
+stackoverflow, how to send programatically via whatsapp
+https://stackoverflow.com/questions/19081654/send-text-to-specific-contact-programmatically-whatsapp
+whatsapp main page, faq, how to send messages with android
+https://faq.whatsapp.com/1530794880435103/?locale=en_US
