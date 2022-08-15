@@ -16,6 +16,6 @@ public class StartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
         Log.v("Markel","goedemorgend");
-        new WifiScanner(getApplicationContext());
+        new WifiScanner(getApplicationContext(),"wifi_address");
     }
 }
