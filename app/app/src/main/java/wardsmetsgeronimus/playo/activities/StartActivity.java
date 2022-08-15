@@ -1,9 +1,11 @@
-package wardsmetsgeronimus.playo;
+package wardsmetsgeronimus.playo.activities;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import wardsmetsgeronimus.playo.R;
 
 public class StartActivity extends AppCompatActivity {
 
