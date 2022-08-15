@@ -14,7 +14,10 @@ then see if you can send messages with whatsapp
 
 reference material:
 background work in android: 
-https://developer.android.com/guide/background#:~:text=performing%20network%20requests.-,Definition%20of%20background%20work,was%20visible%20to%20the%20user.
+https://developer.android.com/guide/background#:~:text=performing%20network%20requests.-,Definition%20of%20background%20work,was%20visible%20to%20the%20user
+
+we want persistent background work -> use WorkManager, can be deferrable (doesn't matter when it gets executed)
+=> we need to define work requests: https://developer.android.com/topic/libraries/architecture/workmanager/how-to/define-work#schedule_periodic_work
 
 stackoverflow, how to send programatically via whatsapp
 https://stackoverflow.com/questions/19081654/send-text-to-specific-contact-programmatically-whatsapp

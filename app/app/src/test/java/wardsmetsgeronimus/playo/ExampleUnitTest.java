@@ -1,4 +1,4 @@
-package wardgeronimussmets.playo;
+package wardsmetsgeronimus.playo;
 
 import org.junit.Test;
 
