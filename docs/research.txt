@@ -12,7 +12,10 @@ then see if you can turn on wifi and scan for wifi networks
 then see if you can send messages with whatsapp
 
 
-libararies:
+reference material:
+background work in android: 
+https://developer.android.com/guide/background#:~:text=performing%20network%20requests.-,Definition%20of%20background%20work,was%20visible%20to%20the%20user.
+
 stackoverflow, how to send programatically via whatsapp
 https://stackoverflow.com/questions/19081654/send-text-to-specific-contact-programmatically-whatsapp
 whatsapp main page, faq, how to send messages with android
