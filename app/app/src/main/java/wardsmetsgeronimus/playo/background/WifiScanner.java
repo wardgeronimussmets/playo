@@ -24,11 +24,11 @@ public class WifiScanner {
 
     private void start_scanning() {
         Log.v("Markel","Trying to scan");
-        PeriodicWorkRequest saveRequest = new PeriodicWorkRequest.Builder(WifiWorker.class,1,TimeUnit.SECONDS).build();
+        PeriodicWorkRequest saveRequest = new PeriodicWorkRequest.Builder(WifiWorker.class,15,TimeUnit.MINUTES).build();
         WorkManager.getInstance(applicationContext).enqueue(saveRequest);
     }
 
-    public class WifiWorker extends Worker {
+    public static class WifiWorker extends Worker {
         public WifiWorker(
                 @NonNull Context context,
                 @NonNull WorkerParameters params) {
@@ -36,6 +36,7 @@ public class WifiScanner {
             Log.v("Markel","const");
         }
 
+        @NonNull
         @Override
         public Result doWork() {
 
